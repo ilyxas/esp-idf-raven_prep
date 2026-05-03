@@ -4,7 +4,7 @@
     "interface/ftdi/esp32_devkitj_v1.cfg",
     "target/esp32.cfg"
   ],
-  "idf.port": "/dev/tty.usbserial-1110",
+  "idf.port": "/dev/tty.usbserial-1140",
   "idf.currentSetup": "/Users/ilya/.espressif/v6.0/esp-idf",
   "idf.customExtraVars": {
     "ADF_PATH": "/Users/ilya/.espressif/tools",

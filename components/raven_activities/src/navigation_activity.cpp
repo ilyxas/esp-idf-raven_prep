@@ -13,7 +13,7 @@ namespace raven {
 static const char* TAG = "NavigationActivity";
 
 // Poll joystick state every 100 ms while in Manual mode.
-static constexpr TickType_t kManualTickInterval = pdMS_TO_TICKS(100);
+static constexpr TickType_t kManualTickInterval = pdMS_TO_TICKS(10000);
 
 NavigationActivity::NavigationActivity(NavigationService& nav_service,
                                        NavigationState&   nav_state)

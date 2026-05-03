@@ -4,5 +4,6 @@ idf_component_register(
          "src/pilot_input_service.cpp"
          "src/telemetry_service.cpp"
     INCLUDE_DIRS "include"
-    REQUIRES raven_core raven_events raven_state raven_gateways json
+    PRIV_REQUIRES espressif__cjson
+    REQUIRES raven_core raven_events raven_state raven_gateways
 )

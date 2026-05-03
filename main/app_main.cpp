@@ -33,10 +33,10 @@
 namespace {
 constexpr const char* TAG = "main";
 
-constexpr const char* WIFI_SSID = "iDevice";
-constexpr const char* WIFI_PASS = "12345679";
+constexpr const char* WIFI_SSID = "Spark-RC-6a567a";
+constexpr const char* WIFI_PASS = "12341234";
 
-constexpr const char* SERVER_IP = "172.20.10.1";
+constexpr const char* SERVER_IP = "192.168.1.20";
 constexpr uint16_t SERVER_PORT = 8080;
 
 EventGroupHandle_t s_wifi_event_group = nullptr;

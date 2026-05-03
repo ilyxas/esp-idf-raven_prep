@@ -44,7 +44,7 @@ private:
     // must process each message before the next tick overwrites the snapshot.
     TelemetrySnapshot snapshot_{};
 
-    static constexpr TickType_t kTickInterval = pdMS_TO_TICKS(100);
+    static constexpr TickType_t kTickInterval = pdMS_TO_TICKS(10000);
 };
 
 } // namespace raven
